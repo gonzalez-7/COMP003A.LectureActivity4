@@ -40,6 +40,32 @@
             }
 
             Console.WriteLine();
+
+            Console.WriteLine("SECTION D - Loop Control (break and continue)");
+            
+            int number = 0;
+
+            while (number <= 6)
+            {
+                number++;
+
+
+                // continue is used to skip printing at number 4
+                if (number == 4)
+                {
+                    continue;
+                }
+
+                // break is to stop the loop completely when it reaches number 6
+                if (number == 6)
+                {
+                    break;
+                }
+                
+                Console.WriteLine();
+            }
+
+            Console.WriteLine();
         }
     }
 }
