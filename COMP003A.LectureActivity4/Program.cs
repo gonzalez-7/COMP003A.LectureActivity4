@@ -11,7 +11,7 @@
 
             while (taskNumber <= 5)
             {
-                Console.WriteLine("$Task {taskNumber} completed");
+                Console.WriteLine($"Task {taskNumber} completed");
                 taskNumber++;
             }
             Console.WriteLine();
@@ -62,7 +62,7 @@
                     break;
                 }
                 
-                Console.WriteLine();
+                Console.WriteLine(number);
             }
 
             Console.WriteLine();
