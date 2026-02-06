@@ -66,6 +66,16 @@
             }
 
             Console.WriteLine();
-        }
-    }
+
+
+			/*
+             * Which loop type was easiest for you to understand?
+                The easiest loop to understand for me was the for loop
+             * Which loop required the most careful tracing?
+                I think that the loop that required the most careful tracing was the while loop
+             * How did comments help you understand your loops?
+                Comments helped me understand my loops and how they work, also what was their purpose.
+             */
+		}
+	}
 }
