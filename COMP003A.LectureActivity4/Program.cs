@@ -32,7 +32,14 @@
 
             Console.WriteLine();
 
+            Console.WriteLine("SECTION C - for Loop Practice");
+            // Added a for loop because I know the exact number of steps from 1 to 4 
+            for (int i = 1; i <= 4; i++)
+            {
+                Console.WriteLine($"Step {i}");
+            }
 
+            Console.WriteLine();
         }
     }
 }
